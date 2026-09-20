@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Large-button touch remote for Anbernic RG ARC-D (640×480 physical).
+  Skin resolution 720p is Kodi's common XML coordinate space; controls
+  are oversized for finger targets on a 4" 4:3 panel.
+-->
+<window>
+  <defaultcontrol always="true">1005</defaultcontrol>
+  <controls>
+    <control type="image">
+      <description>Background</description>
+      <posx>0</posx>
+      <posy>0</posy>
+      <width>1280</width>
+      <height>720</height>
+      <texture colordiffuse="FF1A1A1A">white.png</texture>
+    </control>
+
+    <control type="label">
+      <description>Title</description>
+      <posx>40</posx>
+      <posy>20</posy>
+      <width>600</width>
+      <height>50</height>
+      <label>Shield Remote</label>
+      <font>font14</font>
+      <textcolor>FFFFFFFF</textcolor>
+    </control>
+
+    <!-- D-pad cluster (left) -->
+    <control type="button" id="1001">
+      <description>Up</description>
+      <posx>160</posx>
+      <posy>100</posy>
+      <width>140</width>
+      <height>100</height>
+      <label>▲</label>
+      <font>font30</font>
+      <textcolor>FFFFFFFF</textcolor>
+      <texturefocus colordiffuse="FF2E7D32">white.png</texturefocus>
+      <texturenofocus colordiffuse="FF37474F">white.png</texturenofocus>
+    </control>
+    <control type="button" id="1003">
+      <description>Left</description>
+      <posx>40</posx>
+      <posy>220</posy>
+      <width>140</width>
+      <height>100</height>
+      <label>◀</label>
+      <font>font30</font>
+      <textcolor>FFFFFFFF</textcolor>
+      <texturefocus colordiffuse="FF2E7D32">white.png</texturefocus>
+      <texturenofocus colordiffuse="FF37474F">white.png</texturenofocus>
+    </control>
+    <control type="button" id="1005">
+      <description>OK</description>
+      <posx>160</posx>
+      <posy>220</posy>
+      <width>140</width>
+      <height>100</height>
+      <label>OK</label>
+      <font>font30</font>
+      <textcolor>FFFFFFFF</textcolor>
+      <texturefocus colordiffuse="FF1565C0">white.png</texturefocus>
+      <texturenofocus colordiffuse="FF455A64">white.png</texturenofocus>
+    </control>
+    <control type="button" id="1004">
+      <description>Right</description>
+      <posx>280</posx>
+      <posy>220</posy>
+      <width>140</width>
+      <height>100</height>
+      <label>▶</label>
+      <font>font30</font>
+      <textcolor>FFFFFFFF</textcolor>
+      <texturefocus colordiffuse="FF2E7D32">white.png</texturefocus>
+      <texturenofocus colordiffuse="FF37474F">white.png</texturenofocus>
+    </control>
+    <control type="button" id="1002">
+      <description>Down</description>
+      <posx>160</posx>
+      <posy>340</posy>
+      <width>140</width>
+      <height>100</height>
+      <label>▼</label>
+      <font>font30</font>
+      <textcolor>FFFFFFFF</textcolor>
+      <texturefocus colordiffuse="FF2E7D32">white.png</texturefocus>
+      <texturenofocus colordiffuse="FF37474F">white.png</texturenofocus>
+    </control>
+
+    <!-- System / media cluster (right) -->
+    <control type="button" id="1006">
+      <description>Back</description>
+      <posx>500</posx>
+      <posy>100</posy>
+      <width>160</width>
+      <height>90</height>
+      <label>Back</label>
+      <font>font20</font>
+      <textcolor>FFFFFFFF</textcolor>
+      <texturefocus colordiffuse="FF6A1B9A">white.png</texturefocus>
+      <texturenofocus colordiffuse="FF4A148C">white.png</texturenofocus>
+    </control>
+    <control type="button" id="1007">
+      <description>Home</description>
+      <posx>680</posx>
+      <posy>100</posy>
+      <width>160</width>
+      <height>90</height>
+      <label>Home</label>
+      <font>font20</font>
+      <textcolor>FFFFFFFF</textcolor>
+      <texturefocus colordiffuse="FF6A1B9A">white.png</texturefocus>
+      <texturenofocus colordiffuse="FF4A148C">white.png</texturenofocus>
+    </control>
+    <control type="button" id="1008">
+      <description>Volume Up</description>
+      <posx>500</posx>
+      <posy>210</posy>
+      <width>160</width>
+      <height>90</height>
+      <label>Vol +</label>
+      <font>font20</font>
+      <textcolor>FFFFFFFF</textcolor>
+      <texturefocus colordiffuse="FF00838F">white.png</texturefocus>
+      <texturenofocus colordiffuse="FF006064">white.png</texturenofocus>
+    </control>
+    <control type="button" id="1009">
+      <description>Volume Down</description>
+      <posx>680</posx>
+      <posy>210</posy>
+      <width>160</width>
+      <height>90</height>
+      <label>Vol −</label>
+      <font>font20</font>
+      <textcolor>FFFFFFFF</textcolor>
+      <texturefocus colordiffuse="FF00838F">white.png</texturefocus>
+      <texturenofocus colordiffuse="FF006064">white.png</texturenofocus>
+    </control>
+    <control type="button" id="1011">
+      <description>Play/Pause</description>
+      <posx>500</posx>
+      <posy>320</posy>
+      <width>160</width>
+      <height>90</height>
+      <label>⏯</label>
+      <font>font30</font>
+      <textcolor>FFFFFFFF</textcolor>
+      <texturefocus colordiffuse="FFEF6C00">white.png</texturefocus>
+      <texturenofocus colordiffuse="FFE65100">white.png</texturenofocus>
+    </control>
+    <control type="button" id="1010">
+      <description>Power</description>
+      <posx>680</posx>
+      <posy>320</posy>
+      <width>160</width>
+      <height>90</height>
+      <label>Power</label>
+      <font>font20</font>
+      <textcolor>FFFFFFFF</textcolor>
+      <texturefocus colordiffuse="FFC62828">white.png</texturefocus>
+      <texturenofocus colordiffuse="FFB71C1C">white.png</texturenofocus>
+    </control>
+
+    <!-- Pairing / settings -->
+    <control type="button" id="1012">
+      <description>Pair</description>
+      <posx>900</posx>
+      <posy>100</posy>
+      <width>180</width>
+      <height>90</height>
+      <label>Pair</label>
+      <font>font18</font>
+      <textcolor>FFFFFFFF</textcolor>
+      <texturefocus colordiffuse="FF546E7A">white.png</texturefocus>
+      <texturenofocus colordiffuse="FF37474F">white.png</texturenofocus>
+    </control>
+    <control type="button" id="1013">
+      <description>Settings</description>
+      <posx>900</posx>
+      <posy>210</posy>
+      <width>180</width>
+      <height>90</height>
+      <label>Settings</label>
+      <font>font18</font>
+      <textcolor>FFFFFFFF</textcolor>
+      <texturefocus colordiffuse="FF546E7A">white.png</texturefocus>
+      <texturenofocus colordiffuse="FF37474F">white.png</texturenofocus>
+    </control>
+
+    <control type="button" id="1014">
+      <description>Close</description>
+      <posx>900</posx>
+      <posy>320</posy>
+      <width>180</width>
+      <height>90</height>
+      <label>Close</label>
+      <font>font18</font>
+      <textcolor>FFFFFFFF</textcolor>
+      <texturefocus colordiffuse="FFC62828">white.png</texturefocus>
+      <texturenofocus colordiffuse="FFB71C1C">white.png</texturenofocus>
+    </control>
+    <control type="button" id="1015">
+      <description>Mapper profile</description>
+      <posx>900</posx>
+      <posy>430</posy>
+      <width>180</width>
+      <height>90</height>
+      <label>Profile</label>
+      <font>font18</font>
+      <textcolor>FFFFFFFF</textcolor>
+      <texturefocus colordiffuse="FF546E7A">white.png</texturefocus>
+      <texturenofocus colordiffuse="FF37474F">white.png</texturenofocus>
+    </control>
+  </controls>
+</window>

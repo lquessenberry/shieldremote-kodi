@@ -1,0 +1,34 @@
+{
+  "name": "shield_ui",
+  "description": "Navigate Shield launcher / Android TV UI",
+  "actions": {
+    "1": "DPAD_LEFT",
+    "2": "DPAD_RIGHT",
+    "3": "DPAD_UP",
+    "4": "DPAD_DOWN",
+    "7": "DPAD_CENTER",
+    "10": "BACK",
+    "92": "BACK",
+    "12": "VOLUME_UP",
+    "13": "VOLUME_DOWN",
+    "14": "VOLUME_MUTE",
+    "15": "HOME",
+    "79": "MEDIA_PLAY_PAUSE"
+  },
+  "joystick": {
+    "left": "DPAD_LEFT",
+    "right": "DPAD_RIGHT",
+    "up": "DPAD_UP",
+    "down": "DPAD_DOWN",
+    "a": "DPAD_CENTER",
+    "b": "BACK",
+    "x": "MENU",
+    "y": "HOME",
+    "start": "HOME",
+    "back": "BACK",
+    "leftbumper": "VOLUME_DOWN",
+    "rightbumper": "VOLUME_UP",
+    "lefttrigger": "MEDIA_PLAY_PAUSE",
+    "righttrigger": "POWER"
+  }
+}

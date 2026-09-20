@@ -1,0 +1,33 @@
+{
+  "name": "media",
+  "description": "Media-centric mapping for Netflix / Plex / video apps",
+  "actions": {
+    "1": "DPAD_LEFT",
+    "2": "DPAD_RIGHT",
+    "3": "DPAD_UP",
+    "4": "DPAD_DOWN",
+    "7": "DPAD_CENTER",
+    "10": "BACK",
+    "92": "BACK",
+    "12": "VOLUME_UP",
+    "13": "VOLUME_DOWN",
+    "14": "VOLUME_MUTE",
+    "79": "MEDIA_PLAY_PAUSE"
+  },
+  "joystick": {
+    "left": "MEDIA_PREVIOUS",
+    "right": "MEDIA_NEXT",
+    "up": "VOLUME_UP",
+    "down": "VOLUME_DOWN",
+    "a": "MEDIA_PLAY_PAUSE",
+    "b": "BACK",
+    "x": "MEDIA_STOP",
+    "y": "HOME",
+    "start": "HOME",
+    "back": "BACK",
+    "leftbumper": "MEDIA_PREVIOUS",
+    "rightbumper": "MEDIA_NEXT",
+    "lefttrigger": "VOLUME_DOWN",
+    "righttrigger": "VOLUME_UP"
+  }
+}

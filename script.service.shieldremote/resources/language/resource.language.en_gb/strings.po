@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"Language: en_GB\n"
+
+msgctxt "#32000"
+msgid "Connection"
+msgstr "Connection"
+
+msgctxt "#32001"
+msgid "Enable service"
+msgstr "Enable service"
+
+msgctxt "#32002"
+msgid "Shield IP address"
+msgstr "Shield IP address"
+
+msgctxt "#32003"
+msgid "Protocol / backend"
+msgstr "Protocol / backend"
+
+msgctxt "#32004"
+msgid "Command port (ATV)"
+msgstr "Command port (ATV)"
+
+msgctxt "#32005"
+msgid "Pairing port (ATV)"
+msgstr "Pairing port (ATV)"
+
+msgctxt "#32006"
+msgid "Pairing status"
+msgstr "Pairing status"
+
+msgctxt "#32007"
+msgid "Mapper profile"
+msgstr "Mapper profile"
+
+msgctxt "#32008"
+msgid "Client name (shown on TV)"
+msgstr "Client name (shown on TV)"
+
+msgctxt "#32010"
+msgid "Kodi JSON-RPC"
+msgstr "Kodi JSON-RPC"
+
+msgctxt "#32011"
+msgid "JSON-RPC URL"
+msgstr "JSON-RPC URL"
+
+msgctxt "#32012"
+msgid "Username"
+msgstr "Username"
+
+msgctxt "#32013"
+msgid "Password"
+msgstr "Password"
+
+msgctxt "#32020"
+msgid "Input mapping"
+msgstr "Input mapping"

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Local offline storage used by StoragePaths fallback
+.shieldremote_data/
+
+# Packaging output (regenerate with scripts/package.sh)
+dist/*.zip
+
+# Editor / OS
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# Kodi userdata copies accidentally dropped here
+userdata/

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.shieldremote"
+       name="ShieldRemote"
+       version="0.2.0"
+       provider-name="Lee Quessenberry">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.shieldremote.core" version="0.2.0"/>
+    <import addon="script.service.shieldremote" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Touch remote for NVIDIA Shield from ARC-D</summary>
+    <description lang="en_GB">Large-button WindowXML remote (640×480) for Anbernic RG ARC-D controlling an NVIDIA Shield via Android TV Remote / JSON-RPC.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>

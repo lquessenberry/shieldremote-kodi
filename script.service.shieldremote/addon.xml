@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.service.shieldremote"
+       name="ShieldRemote Service"
+       version="0.2.0"
+       provider-name="Lee Quessenberry">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.shieldremote.core" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="startup"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Keepalive connection to NVIDIA Shield</summary>
+    <description lang="en_GB">Background service that reconnects the Shield remote session and exposes host/protocol settings for the suite.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
